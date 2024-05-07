@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --darkest-color: #0b2545;
+  --darker-color: #13315c;
+  --dark-color: #134074;
+  --link-color: #8da9c4;
+  --light-color: #eef4ed;
+  --lighter-color: #fff;
+  --primary-blue: #0041c2;
+  --secondary-blue: #4169e1;
+}
