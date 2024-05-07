@@ -3,20 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./public/assets/blog.png" type="image/png" />
     <link rel="stylesheet" href="./public/style.css" />
     <title>Welcome to my personal blog</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header">
-      <div class="logo" id="logo"></div>
+    <header id="header" class="header">
+      <div class="logo-buttons">
+        <div class="logo">
+          <a href="#">
+            <img src="./public/assets/blog.png" alt="" />
+          </a>
+        </div>
+
+        <div class="header-buttons">
+          <button>
+            <i class="bx bxs-user"></i>
+          </button>
+          <button>
+            <i class="bx bx-sun"></i>
+          </button>
+          <button>
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+      </div>
 
       <nav class="navbar">
         <li>
-          <a href=""></a>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
         </li>
       </nav>
     </header>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="home-header">
+        <h1>What's up?</h1>
+        <p>Read about my creative ideas!</p>
+      </div>
+
+      <div class="home-buttons">
+        <button class="loginBtn">Login</button>
+        <button class="signupBtn">Signup</button>
+      </div>
+    </section>
+
+    <!-- **** SIDEBAR **** -->
+
+    <!-- *** MAIN SECTION *** -->
 
     <script src="./public/index.js"></script>
   </body>
