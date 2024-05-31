@@ -79,7 +79,7 @@ body {
   padding: 50px 10%;
   color: #fff;
   height: 400px;
-  background-image: url("./assets/bg.jpg");
+  background-image: url("/assets/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
