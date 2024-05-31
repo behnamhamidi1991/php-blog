@@ -124,3 +124,36 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
+
+/* POSTS SECTION */
+
+.blog {
+  padding: 50px 10%;
+}
+
+.blog-header {
+  margin: 15px 0;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 20px;
+}
+
+.post-box {
+  background-color: #ffffff;
+  padding: 20px 15px;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.readBtn {
+  background-color: #13315c;
+  color: #fff;
+  padding: 5px 7px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
