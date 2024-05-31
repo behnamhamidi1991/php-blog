@@ -131,6 +131,25 @@ body {
   padding: 50px 10%;
 }
 
+.blog h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+
+.blog p {
+  font-family: "Roboto";
+}
+
+.blog span {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 500;
+}
+
 .blog-header {
   margin: 15px 0;
 }
@@ -147,6 +166,13 @@ body {
   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
+.details {
+  display: flex;
+  gap: 4px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
 .readBtn {
   background-color: #13315c;
   color: #fff;
@@ -156,4 +182,29 @@ body {
   border-radius: 10px;
   cursor: pointer;
   font-size: 12px;
+}
+
+footer {
+  height: 140px;
+  background-color: var(--darkest-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto";
+}
+
+footer h4 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+footer p:last-child {
+  color: rgb(255, 217, 0);
 }
