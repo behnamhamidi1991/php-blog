@@ -86,5 +86,6 @@
           </div>
           <button class="readBtn">Read More</button>
         </div>
+        <a href="/blog" class="showAll">Show all posts</a>
       </div>
     </section>

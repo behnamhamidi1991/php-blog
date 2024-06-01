@@ -142,15 +142,12 @@ h6 {
 
 .blog p {
   font-family: "Roboto";
-  line-height: 1.5;
-  font-size: 14px;
 }
 
 .blog span {
   font-family: "Roboto";
   font-size: 13px;
-  font-weight: 400;
-  color: #2c2c2c;
+  font-weight: 500;
 }
 
 .blog-header {
@@ -210,4 +207,55 @@ footer p {
 
 footer p:last-child {
   color: rgb(255, 217, 0);
+}
+
+/* CREATE POST */
+.create-form {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  gap: 5px;
+  font-family: "Roboto";
+  height: 716px;
+}
+
+.create-form h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+
+.create-form input,
+textarea,
+button {
+  font-family: "Roboto";
+  font-size: 13px;
+  padding: 10px;
+  outline: none;
+}
+
+.create-form textarea {
+  height: 140px;
+}
+
+.create-form input {
+  border: none;
+}
+
+.create-form textarea {
+  border: none;
+  resize: none;
+}
+
+.submitBtn {
+  border: none;
+  background-color: var(--darker-color);
+  color: #fff;
+  cursor: pointer;
 }
