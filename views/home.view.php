@@ -1,8 +1,8 @@
 
-<?php require basePath('views/partials/head.php'); ?>
-<?php require basePath('views/partials/header.php') ?>
+<?php loadPartial('head'); ?>
+<?php loadPartial('header') ?>
 
-<?php require basePath('views/partials/posts.php') ?>
+<?php loadPartial('posts') ?>
 
-<?php require basePath('views/partials/footer.php'); ?>
+<?php loadPartial('footer'); ?>
 

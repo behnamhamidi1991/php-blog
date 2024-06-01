@@ -30,5 +30,5 @@
   * @return void 
   */
   function loadPartial($name) {
-   require basePath("views/partials{$name}.php");
+   require basePath("views/partials/{$name}.php");
   }
