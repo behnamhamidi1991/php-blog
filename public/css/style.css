@@ -56,6 +56,16 @@ body {
   cursor: pointer;
 }
 
+.middle-icon {
+  border: none;
+  padding: 5px;
+  background-color: var(--light-color);
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 3px;
+  color: #333;
+}
+
 .header-buttons button i {
   font-size: 18px;
 }

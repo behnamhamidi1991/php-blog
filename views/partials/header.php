@@ -12,9 +12,9 @@
           <button>
             <i class="bx bxs-user"></i>
           </button>
-          <button>
-            <i class="bx bx-sun"></i>
-          </button>
+          <a href="/blog/create" class="middle-icon">
+            <i class='bx bx-edit'></i>
+          </a>
           <button>
             <i class="bx bx-menu"></i>
           </button>
