@@ -142,12 +142,15 @@ h6 {
 
 .blog p {
   font-family: "Roboto";
+  line-height: 1.5;
+  font-size: 14px;
 }
 
 .blog span {
   font-family: "Roboto";
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 400;
+  color: #2c2c2c;
 }
 
 .blog-header {
