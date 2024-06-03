@@ -1,3 +1,3 @@
 <?php 
 
-echo 'Create Listing';
+loadView('blog/create');
