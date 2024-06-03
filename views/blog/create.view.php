@@ -1,7 +1,7 @@
 <?php loadPartial('head'); ?>
 <?php loadPartial('header'); ?>
 
-<form class="create-form">
+<form class="create-form" method="POST">
       <h2>Create a new post</h2>
       <input
         type="text"
